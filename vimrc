@@ -42,7 +42,7 @@ compiler fish  " Set up :make to use fish for syntax checking.
 " http://stackoverflow.com/questions/14896327/ultisnips-and-youcompleteme
 
 "" YouCompleteMe
-let g:ycm_key_list_previous_completion=['<Up>']
+"let g:ycm_key_list_previous_completion=['<Up>']
 let g:ycm_confirm_extra_conf = 0  " Suppress warning message
 
 
