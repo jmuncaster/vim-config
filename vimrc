@@ -38,11 +38,11 @@ filetype plugin indent on
 compiler fish  " Set up :make to use fish for syntax checking.
 "setlocal foldmethod=expr  " Enable folding of block structures in fish.
 
+
 """ YCM & Utilisnips key binding help
 " http://stackoverflow.com/questions/14896327/ultisnips-and-youcompleteme
 
 "" YouCompleteMe
-"let g:ycm_key_list_previous_completion=['<Up>']
 let g:ycm_confirm_extra_conf = 0  " Suppress warning message
 
 
@@ -50,9 +50,6 @@ let g:ycm_confirm_extra_conf = 0  " Suppress warning message
 let g:UltiSnipsExpandTrigger="<Leader><Leader>"   " Expand snippet
 let g:UltiSnipsJumpForwardTrigger="<C-j>"         " Next field
 let g:UltiSnipsJumpBackwardTrigger="<C-k>"        " Prev field
-
-" let g:UltiSnipsJumpForwardTrigger="<tab>"
-" let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 
 "" NERDTree
