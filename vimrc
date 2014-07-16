@@ -4,7 +4,8 @@ execute pathogen#infect()
 "" Pre-load vim-sensible in case I want to override it.
 runtime! plugin/sensible.vim
 
-"" Default yank to system clipboard
+"" Default yank to system clipboard. Requires macvim or latest vim.
+" Run brew install macvim vim
 set clipboard+=unnamed
 
 "" My appearance stuff
