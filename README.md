@@ -3,6 +3,9 @@ vim-config
 
 My .vimrc and related configuration files
 
+    ln ~/path/to/vimrc ~/.vimrc
+    ln ~/path/to/gvimrc ~/.gvimrc
+
 
 plugins
 =======
