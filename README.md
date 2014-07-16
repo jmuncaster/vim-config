@@ -9,6 +9,10 @@ My .vimrc and related configuration files
 
 plugins
 =======
+airline - cool status bar
+fugitive - integrates git into airline
+
+
 The following plugins are installed at the time of this writing
 * cscope.vim
 *  cscope_maps
