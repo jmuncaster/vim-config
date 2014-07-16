@@ -11,6 +11,12 @@ set clipboard+=unnamed
 set number      " line numbers
 set mouse=a     " capture mouse
 colorscheme wombat256
+" GitGutter
+highlight clear SignColumn
+highlight GitGutterAdd ctermfg=green
+highlight GitGutterChange ctermfg=yellow
+highlight GitGutterDelete ctermfg=red
+highlight GitGutterChangeDelete ctermfg=yellow
 
 " Disable bell
 set visualbell    " don't beep
